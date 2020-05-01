@@ -6,7 +6,7 @@ import java.awt.image.BufferedImage;
 /**
  * Création d'un Code QR
  *
- * @author Richard Lapointe (2020-30)
+ * @author (2020-30)
  */
 public class frmPrincipale extends javax.swing.JFrame {
 
