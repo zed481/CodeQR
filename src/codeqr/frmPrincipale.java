@@ -86,7 +86,7 @@ public class frmPrincipale extends javax.swing.JFrame {
 
     private void cmdCreerCodeQRActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdCreerCodeQRActionPerformed
         try {
-            final BufferedImage imgCodeQR = CodeBarre.getCodeQR( jtxtTexteCodeQR.getText(), 200 );
+            final BufferedImage imgCodeQR = CodeBarre.getCodeQR( jtxtTexteCodeQR.getText(), 300 );
             jlblCodeQR.setText( "" );
             jlblCodeQR.setIcon( new javax.swing.ImageIcon( imgCodeQR ) );
             jlblCodeQR.setPreferredSize( new Dimension( imgCodeQR.getHeight(), imgCodeQR.getWidth() ) );
