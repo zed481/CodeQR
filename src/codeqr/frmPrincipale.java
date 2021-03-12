@@ -30,7 +30,6 @@ public class frmPrincipale extends javax.swing.JFrame {
         cmdCreerCodeQR = new javax.swing.JButton();
         jlblCodeQR = new javax.swing.JLabel();
         cmdQuitter = new javax.swing.JButton();
-        cmdDemo = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("CodeQR");
@@ -53,13 +52,6 @@ public class frmPrincipale extends javax.swing.JFrame {
             }
         });
 
-        cmdDemo.setText("Démo");
-        cmdDemo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cmdDemoActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -71,8 +63,6 @@ public class frmPrincipale extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(cmdCreerCodeQR)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(cmdDemo)
-                        .addGap(8, 8, 8)
                         .addComponent(cmdQuitter))
                     .addComponent(jlblCodeQR))
                 .addContainerGap(69, Short.MAX_VALUE))
@@ -85,8 +75,7 @@ public class frmPrincipale extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cmdCreerCodeQR)
-                    .addComponent(cmdQuitter)
-                    .addComponent(cmdDemo))
+                    .addComponent(cmdQuitter))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jlblCodeQR)
                 .addContainerGap(279, Short.MAX_VALUE))
@@ -109,11 +98,6 @@ public class frmPrincipale extends javax.swing.JFrame {
     private void cmdQuitterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdQuitterActionPerformed
         System.exit( 0 );
     }//GEN-LAST:event_cmdQuitterActionPerformed
-
-    private void cmdDemoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdDemoActionPerformed
-        jtxtTexteCodeQR.setText( "https://mev-web.ca?f=p%2BPWgIxr1eR5qLeH1NxFrHrbjZJgvUbsUWXJr0Y8870vaYICA%2FKf%2BZ%2FCyDNsWFjefbHCtIazeFF9nb%2B6rj04XGc%2F4m9JtOvgUyyt5QMS4lXzqhpI2JP%2FMiah1OxqPZ91%2FwR%2F3ZJgJoT%2FgZh6VdsoqSd%2FuAYwF48XVaFFEV57V5BxortqdjD%2FGAOQrLBDeXsvoaOKxnPXKfsubLy%2FrnzTQ2R3k0gMBC5y9YvnqpGKujtXrAXFwt%2Fce9Tb0ovdQui%2BvaySnE4CeoB36YSsMzcog4x9PkMdzObp0K1wIwv%2BS7oMZQ09qDvEw2rSNKwshkMndPzMJLABxj%2Fy0r%2BDcuAO2WIMwlUgTsaTJID3iDcQHkJaGJ0EWD%2FbXE5WeTul%2Fi86aK41BfIwd%2BqLt388lAS%2BBVJaEOuamGZ5kvGV%2Fp1K5P8zsCzJuwwCa5GhXOew45FV82Jdsf0D4%2FGZvfJVcAe1crq4YEFRXqa63Dxmk1mqYMUekjHfRykBTH8XdnfUsN6r" );
-        cmdCreerCodeQRActionPerformed( null );
-    }//GEN-LAST:event_cmdDemoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -140,7 +124,6 @@ public class frmPrincipale extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton cmdCreerCodeQR;
-    private javax.swing.JButton cmdDemo;
     private javax.swing.JButton cmdQuitter;
     private javax.swing.JLabel jlblCodeQR;
     private javax.swing.JTextField jtxtTexteCodeQR;

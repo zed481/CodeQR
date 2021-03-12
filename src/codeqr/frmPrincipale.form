@@ -31,8 +31,6 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="cmdCreerCodeQR" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="cmdDemo" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                       <Component id="cmdQuitter" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Component id="jlblCodeQR" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -50,7 +48,6 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="cmdCreerCodeQR" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cmdQuitter" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="cmdDemo" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jlblCodeQR" min="-2" max="-2" attributes="0"/>
@@ -84,14 +81,6 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdQuitterActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="cmdDemo">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="D&#xe9;mo"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdDemoActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
