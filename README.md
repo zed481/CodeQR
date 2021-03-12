@@ -1,2 +1,3 @@
 # CodeQR
-CodeQR Java
+Générateur de CodeQR très simple en Java
+
