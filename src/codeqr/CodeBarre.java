@@ -21,7 +21,7 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
  * https://repo1.maven.org/maven2/com/google/zxing/core/3.3.0/core-3.3.0.jar
  * https://repo1.maven.org/maven2/com/google/zxing/javase/3.3.0/javase-3.3.0.jar
  *
- * @author Richard Lapointe (2020-01)
+ * @author (2020-01)
  */
 public class CodeBarre {
 
