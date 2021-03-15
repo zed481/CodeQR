@@ -133,6 +133,7 @@ public class frmPrincipale extends javax.swing.JFrame {
             jlblCodeQR.setText( "" );
             jlblCodeQR.setIcon( new javax.swing.ImageIcon( imgCodeQR ) );
             jlblCodeQR.setPreferredSize( new Dimension( imgCodeQR.getHeight(), imgCodeQR.getWidth() ) );
+
         } catch ( com.google.zxing.WriterException | java.awt.HeadlessException e ) {
             System.err.println( e );
         }
